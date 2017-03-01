@@ -1,0 +1,54 @@
+Configuring yaml-0.8.21.2...
+Building yaml-0.8.21.2...
+Preprocessing library yaml-0.8.21.2...
+[ 1 of 10] Compiling Text.Libyaml     ( Text/Libyaml.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Text/Libyaml.o )
+[ 2 of 10] Compiling Data.Yaml.Parser ( Data/Yaml/Parser.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Yaml/Parser.o )
+[ 3 of 10] Compiling Data.Yaml.Internal ( Data/Yaml/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Yaml/Internal.o )
+[ 4 of 10] Compiling Data.Yaml.Include ( Data/Yaml/Include.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Yaml/Include.o )
+[ 5 of 10] Compiling Data.Yaml.Builder ( Data/Yaml/Builder.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Yaml/Builder.o )
+
+Data/Yaml/Builder.hs:25:1: warning: [-Wdeprecations]
+    Module ‘Data.Aeson.Encode’ is deprecated:
+      Use Data.Aeson or Data.Aeson.Text instead
+
+Data/Yaml/Builder.hs:89:85: warning: [-Wdeprecations]
+    In the use of ‘encodeToTextBuilder’
+    (imported from Data.Aeson.Encode):
+    Deprecated: "Use Data.Aeson or Data.Aeson.Text instead"
+[ 6 of 10] Compiling Data.Yaml.Pretty ( Data/Yaml/Pretty.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Yaml/Pretty.o )
+[ 7 of 10] Compiling Data.Yaml        ( Data/Yaml.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Yaml.o )
+
+Data/Yaml.hs:74:1: warning: [-Wdeprecations]
+    Module ‘Data.Aeson.Encode’ is deprecated:
+      Use Data.Aeson or Data.Aeson.Text instead
+
+Data/Yaml.hs:140:88: warning: [-Wdeprecations]
+    In the use of ‘encodeToTextBuilder’
+    (imported from Data.Aeson.Encode):
+    Deprecated: "Use Data.Aeson or Data.Aeson.Text instead"
+[ 8 of 10] Compiling Data.Yaml.Aeson  ( Data/Yaml/Aeson.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Yaml/Aeson.o )
+[ 9 of 10] Compiling Data.Yaml.Config ( Data/Yaml/Config.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Yaml/Config.o )
+[10 of 10] Compiling Data.Yaml.TH     ( Data/Yaml/TH.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/Yaml/TH.o )
+
+libyaml/api.c:837:34: error:
+     warning: assigning to 'yaml_char_t *' (aka 'unsigned char *') from 'char [1]' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!value && !length) value = "";
+                                     ^ ~~
+1 warning generated.
+
+libyaml/api.c:837:34: error:
+     warning: assigning to 'yaml_char_t *' (aka 'unsigned char *') from 'char [1]' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!value && !length) value = "";
+                                     ^ ~~
+1 warning generated.
+Preprocessing executable 'yaml2json' for yaml-0.8.21.2...
+[1 of 1] Compiling Main             ( exe/yaml2json.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/yaml2json/yaml2json-tmp/Main.o )
+Linking .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/yaml2json/yaml2json ...
+Preprocessing executable 'json2yaml' for yaml-0.8.21.2...
+[1 of 1] Compiling Main             ( exe/json2yaml.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/json2yaml/json2yaml-tmp/Main.o )
+Linking .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/json2yaml/json2yaml ...
+Installing library in
+/Users/shawnritchie/.stack/snapshots/x86_64-osx/lts-8.2/8.0.2/lib/x86_64-osx-ghc-8.0.2/yaml-0.8.21.2-6AQa3YSEWyAJxseOqWbffa
+Installing executable(s) in
+/Users/shawnritchie/.stack/snapshots/x86_64-osx/lts-8.2/8.0.2/bin
+Registering yaml-0.8.21.2...

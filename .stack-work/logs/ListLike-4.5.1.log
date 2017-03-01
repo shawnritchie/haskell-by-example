@@ -1,0 +1,27 @@
+Configuring ListLike-4.5.1...
+Building ListLike-4.5.1...
+Preprocessing library ListLike-4.5.1...
+[ 1 of 21] Compiling Data.ListLike.FoldableLL ( src/Data/ListLike/FoldableLL.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/FoldableLL.o )
+[ 2 of 21] Compiling Data.ListLike.Base ( src/Data/ListLike/Base.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/Base.o )
+[ 3 of 21] Compiling Data.ListLike.IO ( src/Data/ListLike/IO.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/IO.o )
+[ 4 of 21] Compiling Data.ListLike.String ( src/Data/ListLike/String.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/String.o )
+[ 5 of 21] Compiling Data.ListLike.CharString ( src/Data/ListLike/CharString.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/CharString.o )
+[ 6 of 21] Compiling Data.ListLike.DList ( src/Data/ListLike/DList.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/DList.o )
+[ 7 of 21] Compiling Data.ListLike.FMList ( src/Data/ListLike/FMList.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/FMList.o )
+[ 8 of 21] Compiling Data.ListLike.Text.Text ( src/Data/ListLike/Text/Text.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/Text/Text.o )
+[ 9 of 21] Compiling Data.ListLike.Text.TextLazy ( src/Data/ListLike/Text/TextLazy.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/Text/TextLazy.o )
+[10 of 21] Compiling Data.ListLike.Text.Builder ( src/Data/ListLike/Text/Builder.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/Text/Builder.o )
+[11 of 21] Compiling Data.ListLike.Text ( src/Data/ListLike/Text.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/Text.o )
+[12 of 21] Compiling Data.ListLike.Chars ( src/Data/ListLike/Chars.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/Chars.o )
+[13 of 21] Compiling Data.ListLike.UTF8 ( src/Data/ListLike/UTF8.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/UTF8.o )
+[14 of 21] Compiling Data.ListLike.Utils ( src/Data/ListLike/Utils.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/Utils.o )
+[15 of 21] Compiling Data.ListLike.Vector.Generic ( src/Data/ListLike/Vector/Generic.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/Vector/Generic.o )
+[16 of 21] Compiling Data.ListLike.Vector.Storable ( src/Data/ListLike/Vector/Storable.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/Vector/Storable.o )
+[17 of 21] Compiling Data.ListLike.Vector.Unboxed ( src/Data/ListLike/Vector/Unboxed.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/Vector/Unboxed.o )
+[18 of 21] Compiling Data.ListLike.Vector.Vector ( src/Data/ListLike/Vector/Vector.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/Vector/Vector.o )
+[19 of 21] Compiling Data.ListLike.Vector ( src/Data/ListLike/Vector.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/Vector.o )
+[20 of 21] Compiling Data.ListLike.Instances ( src/Data/ListLike/Instances.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike/Instances.o )
+[21 of 21] Compiling Data.ListLike    ( src/Data/ListLike.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Data/ListLike.o )
+Installing library in
+/Users/shawnritchie/.stack/snapshots/x86_64-osx/lts-8.2/8.0.2/lib/x86_64-osx-ghc-8.0.2/ListLike-4.5.1-4boUoCTYVq8ExfHRaugzwD
+Registering ListLike-4.5.1...
